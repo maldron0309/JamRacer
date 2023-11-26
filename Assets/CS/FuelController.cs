@@ -44,4 +44,10 @@ public class FuelController : MonoBehaviour
         fuelImage.fillAmount = (currentFuelAmount / maxFuelAmount);
         fuelImage.color = fuelGradient.Evaluate(fuelImage.fillAmount);
     }
+
+    public void FillFuel()
+    {
+        currentFuelAmount = maxFuelAmount;
+        UpdateUI();
+    }
 }
