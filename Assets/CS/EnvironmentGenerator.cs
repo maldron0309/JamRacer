@@ -9,7 +9,7 @@ public class EnvironmentGenerator : MonoBehaviour
 {
     public SpriteShapeController spriteShapeController;
 
-    [Range(3f, 100f)] public int levelLength = 50;
+    [Range(3f, 150f)] public int levelLength = 50;
     [Range(1f, 50f)] public float xMultiplier = 2f;
     [Range(1f, 50f)] public float yMultiplier = 2f;
     [Range(0f, 1f)] public float curveSmoothness = 0.5f;
