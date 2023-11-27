@@ -1,2 +1,2 @@
-# MiniJameGam
+# JamRacer
 MiniJameGam#24
